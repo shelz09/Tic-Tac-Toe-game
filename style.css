@@ -1,0 +1,99 @@
+* {
+    padding:0;
+    margin:0;
+    box-sizing:border-box;
+}
+body{
+    background-color: #384D48;
+}
+header{
+    height:10vh;
+    width:100%;
+    padding:2.5rem 1rem;
+    display: flex;
+    justify-content: center;
+}
+header h1{
+    font-size: 50px;
+    color:#D8D4D5;
+}
+.container{
+    height:80%;
+    width:100%;
+    padding:2.5rem 1rem;
+    display: flex;
+    justify-content: center;
+}
+.game{
+    width:22rem;
+    height:22rem;
+    /* background-color:white; */
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+.game .box{
+    width:31%;
+    height:31%;
+    background-color:#ACAD94;
+    border:3px solid #D8D4D5;
+    border-radius:10px;
+    font-size: 54px;
+    cursor:pointer;
+    transition: 120ms ease-in-out;
+    color:#153a25
+}
+.box:hover{
+    background-color:#b8bdbc;
+    /* border:3px solid rgb(73, 73, 73); */
+}
+.box:active{
+    transform: scale(0.8);
+}
+.winner{
+    display: flex;
+    justify-content: center;
+    margin-bottom:5px;
+    gap:15px;
+    
+}
+.hide{
+    display:none;
+}
+
+.winner button{
+    padding:10px;
+    border-radius: 10px;
+    border:none;
+    background-color: #b8bdbc;
+    color:#153a25;
+    font-weight: 700;
+    transition: 120ms ease-in-out;
+}
+.winner p{
+    font-size: 25px;;
+}
+.winner button:hover{
+    background-color: #ACAD94;
+    cursor:pointer;
+}
+.btn-ctn{
+    display: flex;
+    justify-content: center;
+}
+.btn-ctn button{
+    padding:10px;
+    border-radius: 10px;
+    border:none;
+    background-color: #b8bdbc;
+    color:#153a25;
+    font-weight: 700;
+    transition: 120ms ease-in-out;
+}
+.btn-ctn button:hover{
+    background-color: #ACAD94;
+    cursor:pointer;
+}
+.btn-ctn button:active{
+    transform:scale(0.95)
+}
