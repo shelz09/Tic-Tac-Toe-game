@@ -2,9 +2,7 @@ let boxes = document.querySelectorAll(".box");
 let resetBtn = document.getElementById("reset-btn");
 const winner = document.querySelector(".winner");
 const winnerline = document.querySelector(".winnerpara");
-const newgamebtn = document.querySelector(".newgame")
-resetBtn.addEventListener("click", resetgame);
-newgamebtn.addEventListener("click", resetgame)
+
  // Ensure it's correctly selected
 let turnO = true;
 
@@ -66,3 +64,6 @@ const checkwinner = () => {
         }
     }
 };
+const newgamebtn = document.querySelector(".newgame")
+resetBtn.addEventListener("click", resetgame);
+newgamebtn.addEventListener("click", resetgame);
